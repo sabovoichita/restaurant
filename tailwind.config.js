@@ -38,14 +38,15 @@ module.exports = {
         DEFAULT: "#f2994a",
         hover: "#d0863c",
       },
-      outline: "f1f1f1",
+      outline: "#f1f1f1",
       pink: "#ffa5a5",
     },
     extend: {
       fontFamily: {
-        lora: ["var(--font-lora)", "sans-serif"],
+        lora: ["var(--font-lora)", "serif"],
         poppins: ["var(--font-poppins)", "sans-serif"],
       },
+
       boxShadow: {
         primary: "40px 4px 40px 0px rgba(68, 68, 68, 0.25)",
       },
