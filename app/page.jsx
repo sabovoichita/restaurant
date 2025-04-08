@@ -1,3 +1,9 @@
+import StyleGuide from "@/components/ui/StyleGuide";
+
 export default function Home() {
-  return <main>homepage</main>;
+  return (
+    <main>
+      <StyleGuide />
+    </main>
+  );
 }

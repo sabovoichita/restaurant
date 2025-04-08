@@ -40,16 +40,11 @@ module.exports = {
       },
       outline: "f1f1f1",
       pink: "#ffa5a5",
-      accent: {
-        DEFAULT: "#fe7634",
-        hover: "#F55304",
-      },
     },
     extend: {
       fontFamily: {
         lora: ["var(--font-lora)", "sans-serif"],
         poppins: ["var(--font-poppins)", "sans-serif"],
-        secondary: "Lato",
       },
       boxShadow: {
         primary: "40px 4px 40px 0px rgba(68, 68, 68, 0.25)",
