@@ -28,6 +28,9 @@
   p {
     @apply text-black/80 leading-8;
   }
+  a {
+    @apply text-white hover:text-orange-500 transition-all duration-300 cursor-pointer;
+  }
 }
 
 @custom-variant dark (&:is(.dark *));

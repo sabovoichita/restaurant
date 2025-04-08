@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const StyleGuide = () => {
@@ -14,6 +15,7 @@ const StyleGuide = () => {
           random text here some random text here some random text here some
           random text here some random text here
         </p>
+        <Link href="/">Link</Link>
       </div>
     </>
   );
