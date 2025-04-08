@@ -15,6 +15,8 @@ const StyleGuide = () => {
           random text here some random text here some random text here some
           random text here some random text here
         </p>
+      </div>
+      <div className="bg-black p-24 flex flex-col gap-y-4">
         <Link href="/">Link</Link>
       </div>
     </>
